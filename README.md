@@ -1,2 +1,1 @@
-# CV
-My first beautiful personal website.
+# My first beautiful personal website.
