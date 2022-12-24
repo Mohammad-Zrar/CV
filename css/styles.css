@@ -9,7 +9,7 @@ body {
 
 /*em means times greater than the size of before but rem times greater than the root size*/
 h1 {
-    font-size: 5.625rem;
+    font-size: 5.5rem;
     /*In order to make a dynamic size of h1 use rem    90/16=5.625 */
     margin: 30px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -185,4 +185,36 @@ img {
 
 .icons {
     height: 18px;
+}
+
+@media only screen and (max-width: 675px) {
+    h1 {
+            font-size: 4rem;
+            line-height: 1;
+            
+            
+        }
+
+    .mountain-img {
+        
+        width: fit-content;
+        
+    }
+    .top-container {
+        width: 160%;
+    }
+
+    .middle-container {
+        width: 150%;
+        
+    }
+
+    .bottom-container {
+        width: 150%;
+    }
+    .top-cloud {
+        visibility: hidden;
+    }
+
+    
 }
