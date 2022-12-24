@@ -210,7 +210,8 @@ img {
     }
 
     .bottom-container {
-        width: 150%;
+        width: 160%;
+        padding-left: 20px;
     }
     .top-cloud {
         visibility: hidden;
