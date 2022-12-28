@@ -35,24 +35,19 @@ h3 {
 }
 
 
-a {
-   font-family: 'Montserrat', sans-serif;
-   color: #11999E;
-   margin: auto 48px auto 4px;
-   text-decoration: none;
-   font-size: 1.25rem;
-}
-
-a:hover {
-   color: #EAF6F6;
-}
-
 hr {
    width: 12%;
    border-style: dotted hidden hidden hidden;
    border-width: 7.5px;
    border-color: #CFD2CF;
 }
+
+a {
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+}
+
+
 
 /* ------------------------------------------------------------------------------*/
 
@@ -89,7 +84,7 @@ hr {
 
 .c {
    margin: 0;
-   padding: 32px auto;
+   padding: 32px auto 0;
    color: #EAF6F6;
    font-size: 0.75rem;
 }
@@ -129,6 +124,11 @@ hr {
    margin: 0;
    padding: 0;
 }
+
+.a-footer {
+   padding: auto 10px auto 10px;
+}
+
 
 /*################### Class images here ########################*/
 
@@ -185,6 +185,7 @@ hr {
    .top-container {
          width: 160%;
       }
+      
    .mountain-img {
 
       width: fit-content;
@@ -206,6 +207,7 @@ hr {
 
    footer {
       width: 160%;
+      
    }
 
    body>div.middle-container>div.profile>p {
