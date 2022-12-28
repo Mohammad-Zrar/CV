@@ -1,57 +1,57 @@
 /*##################### Tags without class #############################*/
 body {
-    margin: 0;
-    text-align: center;
-    /* font-family: 'Mukta', sans-serif; */
-    font-family: 'Merriweather', serif;
-    background-color: #F6F6F6;
+   margin: 0;
+   text-align: center;
+   /* font-family: 'Mukta', sans-serif; */
+   font-family: 'Merriweather', serif;
+   background-color: #F6F6F6;
 }
 
 /*em means times greater than the size of before but rem times greater than the root size*/
 h1 {
-    font-size: 5.5rem;
-    /*In order to make a dynamic size of h1 use rem    90/16=5.625 */
-    margin: 30px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    color: #66BFBF;
-    line-height: 1.1;
+   font-size: 5.5rem;
+   /*In order to make a dynamic size of h1 use rem    90/16=5.625 */
+   margin: 30px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+   color: #66BFBF;
+   line-height: 1.1;
 }
 
 
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #66BFBF;
-    font-weight: normal;
-    margin: 25px auto 10px auto;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.5rem;
+   color: #66BFBF;
+   font-weight: normal;
+   margin: 25px auto 10px auto;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
-    display: inline-block;
-    margin-bottom: 0;
+   font-family: 'Montserrat', sans-serif;
+   color: #11999E;
+   display: inline-block;
+   margin-bottom: 0;
 }
 
 
 a {
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
-    margin: auto 48px auto 4px;
-    text-decoration: none;
-    font-size: 1.25rem;
+   font-family: 'Montserrat', sans-serif;
+   color: #11999E;
+   margin: auto 48px auto 4px;
+   text-decoration: none;
+   font-size: 1.25rem;
 }
 
 a:hover {
-    color: #EAF6F6;
+   color: #EAF6F6;
 }
 
 hr {
-    width: 5%;
-    border-style: dotted hidden hidden hidden;
-    border-width: 7.5px;
-    border-color: #CFD2CF;
+   width: 12%;
+   border-style: dotted hidden hidden hidden;
+   border-width: 7.5px;
+   border-color: #CFD2CF;
 }
 
 /* ------------------------------------------------------------------------------*/
@@ -59,125 +59,115 @@ hr {
 /* ################################## Classes #######################*/
 
 .pro {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 .top-container {
    /*#E3FDFD */
    background: #E3FDFD;
-    position: relative;
-    padding-top: 100px;
-    width: 100%;
+   position: relative;
+   padding-top: 100px;
+   width: 100%;
 }
 
 
 .profile {
-    line-height: 2;
-    color: #40514E;
-    
+   line-height: 2;
+   color: #40514E;
+
 }
 
 .contact-me {
-    display: inline-block;
-    width: 50%;
-    line-height: 2;
-    margin-bottom: 4rem;
+   display: inline-block;
+   width: 50%;
+   line-height: 2;
+   margin-bottom: 4rem;
 }
 
 
 
 
 .c {
-    margin: 0;
-    padding: 32px auto;
-    color: #EAF6F6;
-    font-size: 0.75rem;
+   margin: 0;
+   padding: 32px auto;
+   color: #EAF6F6;
+   font-size: 0.75rem;
 }
 
-.skill-row {
-    width: 50%;
-    /* display: inline-block; */
-    margin: 100px auto;
-    text-align: left;
-    line-height: 2;
-}
 
 .btn {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    border: none;
-    margin-top: 3rem;
+   background: #3498db;
+   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+   background-image: -o-linear-gradient(top, #3498db, #2980b9);
+   background-image: linear-gradient(to bottom, #3498db, #2980b9);
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+   border: none;
+   margin-top: 3rem;
 }
 
 .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+   background: #3cb0fd;
+   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+   text-decoration: none;
 }
 
 .contact-link {
-    color: white;
-    margin: 0;
-    padding: 0;
+   color: white;
+   margin: 0;
+   padding: 0;
 }
 
 /*################### Class images here ########################*/
 
-img {
-    display: inline-block;
-}
+
 
 .top-cloud {
-    position: absolute;
-    right: 375px;
-    top: 50px;
+   position: absolute;
+   right: 375px;
+   top: 50px;
 }
 
 
 .bottom-cloud {
-    position: absolute;
-    left: 375px;
-    bottom: 315px;
+   position: absolute;
+   left: 375px;
+   bottom: 315px;
 }
 
 .mountain-img {
-    margin-top: 3.25rem;
+   margin-top: 3.25rem;
 }
 
 .my-img {
-    height: 270px;
-    border-radius: 10%;
-    margin: 50px auto 0 auto;
+   height: 270px;
+   border-radius: 10%;
+   margin: 50px auto 0 auto;
 }
 
 .computer-img {
-    height: 225px;
-    float: right;
-    position: relative;
-    bottom: 25px;
-    padding-left: 20px;
+   height: 225px;
+   float: right;
+   bottom: 32px;
+   padding-left: 20px;
 }
 
 .tech-img {
-    height: 270px;
-    float: left;
-    padding-right: 20px;
+   height: 270px;
+   float: left;
+   padding-right: 20px;
 
 }
 
@@ -185,38 +175,46 @@ img {
 
 
 
-@media only screen and (max-width: 675px) {
-    h1 {
-            font-size: 4rem;
-            line-height: 1;
-            
-            
-        }
+@media only screen and (max-width: 625px) {
+   h1 {
+      font-size: 4rem;
+      line-height: 1;
+   }
 
-    .mountain-img {
-        
-        width: fit-content;
-        
-    }
-    .top-container {
-        width: 160%;
-    }
+   
+   .top-container {
+         width: 160%;
+      }
+   .mountain-img {
 
-    .middle-container {
-        width: 150%;
-        
-    }
+      width: fit-content;
 
-    footer {
+   }
+
+   .computer-img {
+      float:none;
+   }
+
+   .middle-container {
+      width: 150%;
+
+   }
+
+   .contact-me {
       width: 160%;
-    }
-       body>div.middle-container>div.profile>p {
-         padding-left: 15px;
-       }
+   }
 
-    .top-cloud {
-        visibility: hidden;
-    }
+   footer {
+      width: 160%;
+   }
 
-    
+   body>div.middle-container>div.profile>p {
+      padding-left: 15px;
+   }
+
+   .top-cloud {
+      visibility: hidden;
+   }
+
+
 }
