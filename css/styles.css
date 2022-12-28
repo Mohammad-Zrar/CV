@@ -64,8 +64,7 @@ hr {
 
 .top-container {
    /*#E3FDFD */
-   background-image: linear-gradient(to bottom right , rgb(240, 255, 66), #E3FDFD, #71C9CE,
-      #E3FDFD);
+   background: #E3FDFD;
     position: relative;
     padding-top: 100px;
     width: 100%;
@@ -86,11 +85,7 @@ hr {
 }
 
 
-.bottom-container {
-    background-color: #71C9CE;
-    line-height: 4;
-    margin: 25px 0 0 0;
-}
+
 
 .c {
     margin: 0;
@@ -186,9 +181,9 @@ img {
 
 }
 
-.icons {
-    height: 18px;
-}
+
+
+
 
 @media only screen and (max-width: 675px) {
     h1 {
@@ -211,14 +206,14 @@ img {
         width: 150%;
         
     }
+
+    footer {
+      width: 160%;
+    }
        body>div.middle-container>div.profile>p {
          padding-left: 15px;
        }
 
-    .bottom-container {
-        width: 160%;
-        padding-left: 20px;
-    }
     .top-cloud {
         visibility: hidden;
     }
