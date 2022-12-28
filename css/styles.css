@@ -63,7 +63,9 @@ hr {
 }
 
 .top-container {
-    background-color: #E3FDFD;
+   /*#E3FDFD */
+   background-image: linear-gradient(to bottom right , rgb(240, 255, 66), #E3FDFD, #71C9CE,
+      #E3FDFD);
     position: relative;
     padding-top: 100px;
     width: 100%;
@@ -73,6 +75,7 @@ hr {
 .profile {
     line-height: 2;
     color: #40514E;
+    
 }
 
 .contact-me {
@@ -208,6 +211,9 @@ img {
         width: 150%;
         
     }
+       body>div.middle-container>div.profile>p {
+         padding-left: 15px;
+       }
 
     .bottom-container {
         width: 160%;
